@@ -4,7 +4,7 @@ import { decrement, increment, dispatch, reset } from "./components/helper.js";
 // Log the initial state
 console.log(getState());
 
-// Get DOM elements
+// Getting  DOM elements
 const number = document.querySelector('[data-number]');
 const subtract = document.querySelector('[data-subtract]');
 const add = document.querySelector('[data-add]');
